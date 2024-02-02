@@ -14,13 +14,11 @@ You may consider that there will not be any empty arrays/vectors.
 */
 
 var min = function(list){
-    list = list.sort();
-    return list[0];
+    return Math.min(...list);
 }
 
 var max = function(list){
-    
-    return list[0];
+    return Math.max(...list);
 }
 
 console.log(min([-52, 56, 30, 29, -54, 0, -110]))
