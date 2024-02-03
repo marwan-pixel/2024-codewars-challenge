@@ -1,5 +1,5 @@
 /*
-Codewars 7 Maximum Multiple
+Codewars 6 Kyu Maximum Multiple
 URL: https://www.codewars.com/kata/5aba780a6a176b029800041c
 
 Task
@@ -34,4 +34,4 @@ function maxMultiple(divisor, bound){
     return Math.floor(bound / divisor) * divisor;
 }
 
-console.log(maxMultiple(3,10));
+console.log(maxMultiple(7,17));
