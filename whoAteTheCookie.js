@@ -21,10 +21,8 @@ function cookie(x){
         case "number":
             statement += " Monica";
             break;
-        case "boolean":
-            statement += " the dog";
-            break;
         default:
+            statement += " the dog";
             break;
     }
     return statement + "!";

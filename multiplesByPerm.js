@@ -37,7 +37,6 @@ function search_permMult(nMax, k) {
                 count++;
             }
         }
-        console.log(sorted_number)
     }
     return count;
 }

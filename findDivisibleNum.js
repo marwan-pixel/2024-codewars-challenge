@@ -9,5 +9,7 @@ Example(Input1, Input2 --> Output)
 */
 
 function divisibleBy(numbers, divisor){
-
+    return numbers.filter(el => el % divisor === 0);
 }
+
+console.log(divisibleBy([1,2,3,4,5,6], 2));
