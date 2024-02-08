@@ -1,5 +1,5 @@
 /*
-Sort Arrays (Ignoring Case)
+Codewars 6 Kyu Sort Arrays (Ignoring Case)
 URL: https://www.codewars.com/kata/51f41fe7e8f176e70d0002b9
 
 Sort the given array of strings in alphabetical order, case insensitive. For example:
