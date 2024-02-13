@@ -15,7 +15,7 @@ Examples:
 */
 
 function hello(name) {
-    return '';
+    return name == false || name == undefined ? "Hello, World!" : `Hello, ${[...name].shift().toUpperCase() + name.toLowerCase().slice(1)}!`;
 }
 
-console.log(hello("john"));
+console.log(hello("johN"));
