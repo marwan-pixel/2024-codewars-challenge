@@ -15,6 +15,8 @@ It expects Calculator.average(3,4,5) to return 4.
 var Calculator = {
     average: function (...number) {
         // Your code here... 
-
+        return number.length == 0 ? 0 : [...number].reduce((accu, curr) => accu + curr) / number.length;
     }
 };
+
+console.log(Calculator.average());

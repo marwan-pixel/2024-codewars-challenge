@@ -18,9 +18,13 @@ Good luck!
 */
 
 function solve(str){
-    let result = str.split(' ').map(word => word.split('').reverse().join('')).reverse().join(' ');
+    //..
+    let result = [];
+    let arrayStr = str.split(' ');
+    for(let i = 0; i < arrayStr.length; i++) {
+        result.push([...str].reverse())
+    }
     return result;
-}
+ }
 
-console.log(solve("i love codewars"));
-
+ console.log(solve("i love codewars"));

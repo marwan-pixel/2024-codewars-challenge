@@ -16,17 +16,17 @@ Tested values are all between 0 and 100. Theres is no need to check for negative
 
 function getGrade (s1, s2, s3) {
     // Code here
-    let sum = s1 * s2 * s3;
-    switch (sum) {
-        case sum >= 729000:
-            return "A";
-            break;
-    
-        default:
-            return "F"
-            break;
+    let sum = (s1 + s2 + s3) / 3;
+    if(sum >= 90 && sum <= 100) {
+        return "A";
+    } else if(sum >= 80 && sum < 90) {
+        return "B";
+    } else if(sum >= 70 && sum < 80) {
+        return "C";
+    } else if(sum >= 60 && sum < 70) {
+        return "D";
     }
-
+    return "F";
 }
 
-console.log(getGrade(90,90,90));
+console.log(getGrade(70,70,100));
