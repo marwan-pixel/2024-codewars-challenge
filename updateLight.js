@@ -22,4 +22,4 @@ const updateLight = (current) =>
     red: "green",
   }[current]);
 
-console.log(updateLight("yellow"));
+console.log(updateLight("green"));
